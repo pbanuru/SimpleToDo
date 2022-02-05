@@ -34,8 +34,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
--While long pressing a task, my app would crash.
--I scanned my code for a bit, and noticed that I redeclared my recyclerView adapter after already declaring it. Removing my second "var" declaration fixed the issue.
+> While long pressing a task, my app would crash.
+> 
+> I scanned my code for a bit, and noticed that I redeclared my recyclerView adapter after already declaring it. Removing my second "var" declaration fixed the issue.
 
 ## License
 
