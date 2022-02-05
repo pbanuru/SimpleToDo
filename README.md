@@ -21,19 +21,21 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] Make functions that don't need to be public private
-* [ ] Revamp the design with new colors (not decided yet)
+* [ ] Revamp the design with new colors (colors not decided, yet)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+-While long pressing a task, my app would crash.
+-I scanned my code for a bit, and noticed that I redeclared my recyclerView adapter after already declaring it. Removing my second "var" declaration fixed the issue.
 
 ## License
 
